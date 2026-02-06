@@ -1,6 +1,15 @@
-# Day 2 Logs – Log Analysis Project
+# Day 2 Advanced SOC Portfolio
 
-This repository contains the Day 2 SOC exercise scaffold, including sample Windows Security logs, a parsing script, and documentation notes.
+This repository documents a full Day 2 SOC learning block, including log analysis, SIEM rule tuning, automation, network forensics, IR playbooks, and ELK/SOAR integration.
+
+## Portfolio Snapshot
+**SOC Analyst Focus:** detection engineering, automation mindset, network IOC analysis, incident response workflow, and SOC-style documentation.
+
+### CV-Style Highlights
+- Designed brute-force detections mapped to MITRE ATT&CK.
+- Tuned SIEM rules with correlation windows to reduce false positives.
+- Automated IOC enrichment and alerting with Python.
+- Conducted network forensics analysis and documented IR playbooks.
 
 ## Project Structure
 
@@ -9,26 +18,42 @@ This repository contains the Day 2 SOC exercise scaffold, including sample Windo
 ├── data/
 │   └── sample_logs.csv
 ├── parse_logs.py
+├── soc_automation.py
+├── iocs_ips.csv
 ├── log_analysis_notes.md
-└── iocs_ips.csv
+├── requirements.txt
+├── docs_advanced_log_analysis.md
+├── docs_siem_rule_tuning.md
+├── docs_python_automation.md
+├── docs_git_workflows.md
+├── docs_network_forensics.md
+├── docs_ir_playbook_gdpr.md
+├── docs_elk_soar_integration.md
+└── docs_reflection_notes.md
 ```
 
-## What the Script Does
+## Running the Scripts
 
-- Reads `data/sample_logs.csv`
-- Filters failed logon events (`event_code == 4625`)
-- Counts failed attempts per `source_ip`
-- Outputs suspicious IPs (count > 5) to `iocs_ips.csv`
-
-## How to Run
-
+### Log Parsing
 ```bash
 python parse_logs.py
 ```
 
-Expected output is a list of suspicious IPs plus a CSV file with the same results.
+### SOC Automation (Dry Run)
+```bash
+python soc_automation.py --dry-run
+```
 
-## Reports / Notes
+## Reports & Notes
+- **Log parsing + MITRE mapping:** `docs_advanced_log_analysis.md`
+- **SIEM rule tuning notes:** `docs_siem_rule_tuning.md`
+- **Network forensics report:** `docs_network_forensics.md`
+- **IR playbook test + GDPR mapping:** `docs_ir_playbook_gdpr.md`
+- **Reflection notes:** `docs_reflection_notes.md`
 
-- `log_analysis_notes.md` contains a SOC-style summary of findings and MITRE ATT&CK mapping.
-- `iocs_ips.csv` contains the extracted indicators of compromise from the sample data.
+## Skills Demonstrated
+- Detection logic
+- Automation mindset
+- Network IOC analysis
+- Incident response flow
+- SOC-style documentation
