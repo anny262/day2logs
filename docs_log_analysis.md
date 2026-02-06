@@ -1,4 +1,4 @@
-# Advanced Log Analysis & Parsing
+# Log Analysis & Parsing
 
 ## Objective
 Detect brute-force patterns from Windows Security logs by clustering repeated failed logons and mapping the behavior to MITRE ATT&CK.

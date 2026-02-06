@@ -24,7 +24,7 @@ This project is a day‑by‑day SOC learning portfolio. It showcases detection 
 ├── iocs_ips.csv
 ├── log_analysis_notes.md
 ├── requirements.txt
-├── docs_advanced_log_analysis.md
+├── docs_log_analysis.md
 ├── docs_siem_rule_tuning.md
 ├── docs_python_automation.md
 ├── docs_git_workflows.md
@@ -46,7 +46,7 @@ python soc_automation.py --dry-run
 ```
 
 ## Reports & Notes
-- **Log parsing + MITRE mapping:** `docs_advanced_log_analysis.md`
+- **Log parsing + MITRE mapping:** `docs_log_analysis.md`
 - **SIEM rule tuning notes:** `docs_siem_rule_tuning.md`
 - **Python automation notes:** `docs_python_automation.md`
 - **Git workflows notes:** `docs_git_workflows.md`
