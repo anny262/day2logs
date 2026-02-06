@@ -2,6 +2,9 @@
 
 Αυτό το repo είναι το ολοκληρωμένο portfolio για την Ημέρα 2 (SOC Analyst). Περιλαμβάνει parsing logs, SIEM rule tuning, automation, network forensics, IR playbooks και ELK/SOAR notes.
 
+## About This Repository
+This project is a day‑by‑day SOC learning portfolio. It showcases detection logic, automation, and documentation standards using realistic workflows and SOC-style reporting.
+
 ## Portfolio Snapshot
 **SOC Analyst Focus:** detection engineering, automation mindset, network IOC analysis, incident response workflow, SOC-style documentation.
 
