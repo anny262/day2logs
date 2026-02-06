@@ -1,4 +1,4 @@
-# Day 2 Advanced SOC Portfolio
+# Day 2 SOC Portfolio (Refresh)
 
 Αυτό το repo είναι το ολοκληρωμένο portfolio για την Ημέρα 2 (SOC Analyst). Περιλαμβάνει parsing logs, SIEM rule tuning, automation, network forensics, IR playbooks και ELK/SOAR notes.
 
