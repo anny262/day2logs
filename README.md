@@ -1,9 +1,9 @@
 # Day 2 Advanced SOC Portfolio
 
-This repository documents a full Day 2 SOC learning block, including log analysis, SIEM rule tuning, automation, network forensics, IR playbooks, and ELK/SOAR integration.
+Αυτό το repo είναι το ολοκληρωμένο portfolio για την Ημέρα 2 (SOC Analyst). Περιλαμβάνει parsing logs, SIEM rule tuning, automation, network forensics, IR playbooks και ELK/SOAR notes.
 
 ## Portfolio Snapshot
-**SOC Analyst Focus:** detection engineering, automation mindset, network IOC analysis, incident response workflow, and SOC-style documentation.
+**SOC Analyst Focus:** detection engineering, automation mindset, network IOC analysis, incident response workflow, SOC-style documentation.
 
 ### CV-Style Highlights
 - Designed brute-force detections mapped to MITRE ATT&CK.
@@ -12,7 +12,6 @@ This repository documents a full Day 2 SOC learning block, including log analysi
 - Conducted network forensics analysis and documented IR playbooks.
 
 ## Project Structure
-
 ```
 ./
 ├── data/
@@ -33,7 +32,6 @@ This repository documents a full Day 2 SOC learning block, including log analysi
 ```
 
 ## Running the Scripts
-
 ### Log Parsing
 ```bash
 python parse_logs.py
@@ -47,8 +45,11 @@ python soc_automation.py --dry-run
 ## Reports & Notes
 - **Log parsing + MITRE mapping:** `docs_advanced_log_analysis.md`
 - **SIEM rule tuning notes:** `docs_siem_rule_tuning.md`
+- **Python automation notes:** `docs_python_automation.md`
+- **Git workflows notes:** `docs_git_workflows.md`
 - **Network forensics report:** `docs_network_forensics.md`
 - **IR playbook test + GDPR mapping:** `docs_ir_playbook_gdpr.md`
+- **ELK/SOAR integration notes:** `docs_elk_soar_integration.md`
 - **Reflection notes:** `docs_reflection_notes.md`
 
 ## Skills Demonstrated
